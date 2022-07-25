@@ -1,0 +1,79 @@
+body {
+    color: aliceblue;
+    background-color: rgb(36, 36, 75);
+    text-align: center;
+}
+
+#top {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+
+#mid {
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin: 50px auto;
+}
+
+.side {
+    background-color: rgb(38, 18, 56);
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 40%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#humanGuess,
+#computerGuess {
+    align-self: center;
+    width: 60px;
+    height: 40px;
+    color: aliceblue;
+    font-size: 32px;
+    font-weight: bolder;
+    background-color: rgb(38, 18, 56);
+    border: none;
+    text-align: center;
+}
+
+#computerGuess {
+    width: 40px;
+    height: 40px;
+    font-size: 32;
+    font-weight: bolder;
+    color: aliceblue;
+    text-align: center;
+}
+
+#bot {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.btn {
+    margin: 40px 0px;
+    font-size: 22px;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: rgb(38, 18, 56);
+    border: 2px solid black;
+    padding: 1em;
+    margin: 20px
+}
+
+.btn:active {
+    position: relative;
+    top: 2px;
+}
+
+.btn:disabled {
+    background-color: gray;
+    color: rgb(65, 62, 62);
+}

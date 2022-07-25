@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Random page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script type src="script.js" defer></script>
+</head>
+<header>
+    <h1>Number Guesser!</h1>
+</header>
+<main>
+    <section id="top">
+        <div>Round: <span id="round">1</span></div>
+        <div>Target number: <span id="target">?</span></div>
+    </section>
+    <section id="mid">
+        <div class="side">
+            <div>Computer</div>
+            <div>Score: <span id="cScore">0</span></div>
+            <div id="computerGuess"></div>
+        </div>
+        <div class="side">
+            <div>Human</div>
+            <div>Score: <span id="hScore">0</span></div>
+            <input type="number" id="humanGuess" min=0 max=9 placeholder="N" required>
+        </div>
+    </section>
+    <section id="bot">
+        <div id="winnerMessage">Chose your number!</div>
+        <button class="btn" id="play" type="button">Play</button>
+        <button class="btn" id="next" type="button" disabled>Next Round</button>
+    </section>
+</main>
+<footer></footer>
+
+</html>
